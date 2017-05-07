@@ -1,4 +1,4 @@
-# Functional Firmware with Nerves
+# Let's get started!
 
 ## Requirements:
 There's a few things we need to work with the hardware we've got, here's a list so if you want to get them early, you can!
