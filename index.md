@@ -6,13 +6,15 @@ There's a few things we need to work with the hardware we've got, here's a list 
    
 ### macOS
 
-The easy way
 ```
 $ brew update
 $ brew install erlang
 $ brew install elixir
 $ brew install fwup squashfs coreutils
 ```
+
+Also, you'll need to install [the driver for the USB-Serial adapter](http://www.ftdichip.com/Drivers/VCP/MacOSX/FTDIUSBSerialDriver_v2_3.dmg)
+
    
 ### Linux
 
@@ -33,6 +35,9 @@ $ sudo apt-get install ssh-askpass
 
 # Install squashfs for constructing firmware images
 $ sudo apt-get install squashfs-tools
+
+# Install picocom for talking to the device over the serial adaptor
+$ sudo apt-get install picocom
 ```
 
 ### Windows
