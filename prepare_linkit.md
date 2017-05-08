@@ -71,4 +71,4 @@ Then, press the `MPU` button on the Linkit and hold down the `b` key in your ser
 
 To flash the kernel, with the USB drive still plugged in, press the `MPU` to restart the Linkit and hold the `5` key in your serial console until you see the new kernel installing. The device will automatically reboot once it's done.
 
-With this done, we've almost got nerves loaded! Next step is to [create our Nerves app](mix_nerves_new)
+With this done, we've almost got nerves loaded! Next step is to [burn our firmware](burn_firmware)
