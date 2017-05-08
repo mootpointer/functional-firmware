@@ -46,4 +46,4 @@ iex(1)>
 
 You're now inside an Elixir REPL on your device, congratulations!
 
-Next up we're going to [start playing with LEDs](play_with_leds)
+Next up we're going to [start playing with LEDs](04_play_with_leds)
