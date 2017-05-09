@@ -36,7 +36,7 @@ On your serial console, you should be at the IEx prompt.
 We're going to start by bringing in the GPIO module from the ElixirALE package we just added to our firmware.
 
 ```
-iex(1)> import ElixirAle.GPIO
+iex(1)> alias ElixirALE.GPIO
 ```
 
 Now we're going to start a process to interact with that pin we connected to the LED

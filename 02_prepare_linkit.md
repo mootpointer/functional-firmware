@@ -10,14 +10,13 @@ The pin-pitch and hole-pitch can be slightly misaligned sometimes, but the caref
 
 ### Connecting with a serial cable
 
-We're going to use the USB FTDI adapter provided to connect to the Linkit. We'll use some jumper leads for the job.
+We're going to use the USB Serial adapter provided to connect to the Linkit. We'll use some jumper leads for the job.
 
 | FTDI Pin | Linkit Pin |
 | -------- | ---------- |
 | RX       | 9          |
 | TX       | 8          |
 | GND      | GND        |
-| VCC      | VCC        |
 
 
 
