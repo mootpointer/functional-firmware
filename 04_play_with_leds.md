@@ -56,4 +56,4 @@ iex(4)> GPIO.write(pid, 0)
 
 Okay, an LED that requires typing is not super-useful, but we're on our way!
 
-Next up we're going to [play with buttons!](buttons)
+Next up we're going to [connect to wifi!](05_connect_wifi)
