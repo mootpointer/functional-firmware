@@ -39,8 +39,13 @@ config :ui, Ui.Endpoint,
 Now to burn the firmware we're going to need to use the production Mix env. We'll need to prepare the assets
 
 ```
+$ cd ../ui
+$ mix deps.get
+$ MIX_ENV=prod mix compile
 $ MIX_ENV=prod mix phoenix.digest
 
+
+$ cd ../fw
 $ MIX_ENV=prod mix firmware
 ```
 
