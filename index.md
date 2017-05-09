@@ -59,3 +59,5 @@ Then we'll install the Nerves Bootstrap archive. This sets up mix and installs a
 ```
 $ mix archive.install https://github.com/nerves-project/archives/raw/master/nerves_bootstrap.ez
 ```
+
+Ready? [let's create our nerves project](01_mix_nerves_new)
